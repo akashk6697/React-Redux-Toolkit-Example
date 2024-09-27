@@ -1,0 +1,11 @@
+
+// src/reducers/index.js
+import { combineReducers } from 'redux';
+import userReducer from '../reducer/userReducer';
+
+const rootReducer = combineReducers({
+
+  users : userReducer
+});
+
+export default rootReducer;
